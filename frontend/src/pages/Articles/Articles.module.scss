@@ -1,0 +1,68 @@
+
+.icon-left {
+    margin-right: 8px;
+}
+
+.post {
+    width: 100%;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    background: var(--post-color);
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0.3rem 1rem;
+}
+
+.post-title {
+    font-size: 3rem;
+}
+
+.post-link {
+    color: var(--black);
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.post-util {
+    margin-top: 15px;
+    display: flex;
+}
+
+.post-createdAt {
+    margin-right: 10px;
+    color: #b6b8ba;
+}
+
+.post-comment-icon,
+.post-comment-link {
+    color: #b6b8ba;
+}
+
+.post-btn {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.post-edit-icon {
+    color: rgb(3, 123, 3);
+    margin-right: 20px;
+}
+
+.post-delete-icon {
+    color: rgb(176, 2, 2);
+}
+
+.post-content {
+    margin: 15px 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.read-more[href] {
+    background-image: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

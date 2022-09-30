@@ -1,0 +1,103 @@
+.wrapper {
+    display: flex;
+    padding: 0 50px;
+}
+
+.left {
+    width: 70%;
+}
+
+.heading {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.post {
+    margin-top: 20px;
+    padding: 20px;
+    // border: 1px solid #F5F5F5;
+    border-radius: 20px;
+    box-shadow: 0 1px 5px #e0e0e0;
+    transition: transform .3s;
+    &:hover {
+        transform: scale(1.02);
+        transition: all .3s ease-in-out;
+        box-shadow: rgb(0 0 0 / 20%) 0px 0.5rem 1rem;
+    }
+}
+
+.user {
+    display: flex;
+    position: relative;
+}
+
+.user-avatar-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user-name {
+    position: absolute;
+    top: 50%;
+    margin-left: 60px;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.content {
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+
+.read-more[href] {
+    color: #bcbbbb;
+}
+
+.liked {
+    display: flex;
+    position: relative;
+}
+
+.heart-icon {
+    border: 1px solid #62bdfc;
+    border-radius: 50%;
+    padding: 8px 12px;
+    margin-right: 10px;
+    color: #62bdfc;
+    cursor: pointer;
+}
+
+.liked-number {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+    // margin-left: 40px;
+}
+
+// Right
+.right {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 27%;
+    margin: 0 auto;
+}
+
+.right-inner {
+    position: relative;
+    right: 30px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}

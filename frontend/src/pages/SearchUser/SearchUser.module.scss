@@ -1,0 +1,43 @@
+.wrapper {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.user-total {
+    margin-top: 20px;
+    text-align: center
+}
+
+.user {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    // border: 1px solid #F5F5F5;
+    background-color: var(--post-color);
+    border-radius: 20px;
+    box-shadow: 0 1px 5px #e0e0e0;
+    transition: transform .3s;
+    &:hover {
+        transform: scale(1.05);
+        transition: all .3s ease-in-out;
+        box-shadow: rgb(0 0 0 / 20%) 0px 0.5rem 1rem;
+    }
+}
+
+.user-avatar {
+    border-radius: 50%;
+    box-shadow: 0 1px 5px #e0e0e0;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.user-bio {
+    font-size: 1.2rem;
+    color: rgb(180, 179, 179);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}

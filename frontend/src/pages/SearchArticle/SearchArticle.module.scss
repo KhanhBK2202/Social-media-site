@@ -1,0 +1,137 @@
+.wrapper {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.left {
+    width: 70%;
+    // margin: 20px auto;
+}
+
+.post {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #F5F5F5;
+    border-radius: 20px;
+    box-shadow: 0 1px 5px #e0e0e0;
+    transition: transform .3s;
+    &:hover {
+        transform: scale(1.02);
+        transition: all .3s ease-in-out;
+        box-shadow: rgb(0 0 0 / 20%) 0px 0.5rem 1rem;
+    }
+}
+
+.user {
+    display: flex;
+    position: relative;
+}
+
+.user-avatar-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user-name {
+    position: absolute;
+    top: 50%;
+    margin-left: 60px;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.title {
+    margin-top: 20px;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.content {
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+
+.read-more[href] {
+    color: #bcbbbb;
+}
+
+.liked {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 20px;
+}
+
+.heart-icon {
+    border: 1px solid #62bdfc;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    padding: 6px 0 0 0;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-right: 10px;
+    color: #62bdfc;
+    cursor: pointer;
+}
+
+.liked-number {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+}
+
+// Right
+.right {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 27%;
+    margin: 0 auto;
+}
+
+.right-inner {
+    position: relative;
+    right: 30px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag-post {
+    display: flex;
+    margin-bottom: 0;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.tag-name-post {
+    margin: 0 8px;
+    padding: 6px 14px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 1px 5px #e0e0e0;
+    transition: transform .3s;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover {
+        // background-color: #f7f8fb;
+        transform: scale(1.05);
+        transition: all .3s ease-in-out;
+        box-shadow: rgb(0 0 0 / 20%) 0px 0.5rem 1rem;
+    }
+}

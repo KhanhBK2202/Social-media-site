@@ -1,0 +1,155 @@
+.banner {
+    width: 100%;
+    display: flex;
+    margin: 70px auto 48px auto;
+}
+
+// Left
+.left {
+    position: relative;
+    width: 33%;
+    left: 6%;
+}
+
+.img-left {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.img-left:nth-child(1) {
+    position: absolute;
+    left: 0;
+}
+
+.img-left:nth-child(2) {
+    position: absolute;
+    top: 100px;
+    left: 0;
+}
+
+.img-left:nth-child(3) {
+    position: absolute;
+    top: -50px;
+    left: 110px;
+}
+
+.img-left:nth-child(4) {
+    position: absolute;
+    top: 50px;
+    left: 110px;
+}
+
+.img-left:nth-child(5) {
+    position: absolute;
+    left: 220px;
+}
+
+.img-left:nth-child(6) {
+    position: absolute;
+    top: 100px;
+    left: 220px;
+}
+
+// Mid
+.mid {
+    position: relative;
+    width: 33%;
+}
+
+.heading {
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.desc {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #ccc;
+    margin-top: 30px;
+}
+
+// Right
+.right {
+    position: relative;
+    width: 33%;
+    right: 6%;
+}
+
+.img-right {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.img-right:nth-child(1) {
+    position: absolute;
+    right: 0;
+}
+
+.img-right:nth-child(2) {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.img-right:nth-child(3) {
+    position: absolute;
+    top: 50px;
+    right: 110px;
+}
+
+.img-right:nth-child(4) {
+    position: absolute;
+    top: 150px;
+    right: 110px;
+}
+
+.img-right:nth-child(5) {
+    position: absolute;
+    right: 220px;
+}
+
+.img-right:nth-child(6) {
+    position: absolute;
+    top: 100px;
+    right: 220px;
+}
+
+// Responsive
+/* Tablet and Mobile */
+@media only screen and (max-width: 1023px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .mid {
+        position: relative;
+        width: 100%;
+    }
+
+    .heading { 
+        // width: 100%;
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .desc {
+        margin-top: 10px;
+    }
+}
+
+/* Tablet (width >= 740px & width < 1024px) */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* Mobile (width < 740px) */
+@media only screen and (max-width: 739px) {
+    
+}

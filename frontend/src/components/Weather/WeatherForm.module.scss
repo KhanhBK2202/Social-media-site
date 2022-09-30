@@ -1,0 +1,27 @@
+.container-form {
+    display: flex;
+    // margin: 2rem 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    width: 100%;
+    background-color: var(--post-color);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.weatherSearch {
+    margin: 0 15px;
+    border: none;
+    color: var(--text-color);
+}
+
+// .weatherIcon {
+//     color: #cfcfcf;
+// }
+
+// .container-mid {
+//     margin: 3rem 0;
+// }
