@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 
 ENV JWT_ACCESS_KEY=jwt
 ENV JWT_REFRESH_KEY=jwtabc
-ENV MONGODB_URL=mongodb+srv://khanhmtn:tronlegacy2202@cluster0.y7316sr.mongodb.net/?retryWrites=true&w=majority
+ENV MONGODB_URL=yourdatabase
 
 ENV PORT=80
 
